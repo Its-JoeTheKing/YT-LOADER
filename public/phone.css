@@ -1,0 +1,188 @@
+html {
+    font-family: sans-serif;
+    height: 100vh;
+    margin: 0px !important;
+}
+body {
+    margin: 0px !important;
+    height: 100%;
+    width: 100%;
+}
+header {
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    background: linear-gradient(to left,rgb(255, 72, 0),rgb(218, 10, 10));
+    position: fixed;
+    display: block;
+    z-index: 1000;
+}
+.tit1 {
+    color: rgb(0, 206, 27);
+    font-family: 'Rubik Wet Paint';
+    letter-spacing: 1px;
+    position: absolute;
+    font-size: 25px;
+    margin-top: -50px;
+    margin-left: 100px;
+}
+ul {
+    float: right;
+    list-style-type: none;
+    display: none;
+}
+li,a {
+    display: inline;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    padding: 30px 30px 30px 30px;
+    letter-spacing: 1px;
+    margin-right: 30px;
+    color: rgb(255, 255, 255);
+}
+a:hover {
+    transition: 2s;
+    color: cyan;
+}
+.box {
+    width: 100%;
+    height: 45%;
+    background: rgb(8, 8, 8);
+    padding-top: 100px;
+}
+.url {
+    width: 80%;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: 2px rgb(0, 81, 255) solid;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.url:focus {
+    transition: 1s;
+    outline: none;
+    border: 2px rgba(255, 0, 55, 0.8) solid;
+}
+.button {
+    background: transparent;
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 81, 255);
+    outline: none;
+    color: rgb(255, 0, 119);
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+    font-family: 'josefin sans';
+}
+.button:hover {
+    transition: 2s;
+    cursor: pointer;
+    background: rgb(255, 0, 43);
+    color: rgb(0, 81, 255);
+}
+.box2 {
+    width: 100%;
+    min-height: 60%;
+    background: linear-gradient(to left,rgb(255, 26, 9),rgb(214, 0, 214));
+    padding-top: 20px;
+    padding-bottom: 5%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.img {
+    width: 60%;
+    height: 20%;
+    border: 2px black solid;
+    
+}
+.s2 {
+    width: 100%;
+}
+.buttonsd {
+    width: 60%;
+    height: 45px;
+    outline: none;
+    border: black 1px solid;
+    border-radius: 5px;
+    background: rgb(0, 255, 13);
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+    font-family: sans-serif;
+    box-shadow: 5px 5px 2px 2px grey;
+}
+.buttonsd:hover {
+    transition: 2s;
+    cursor: pointer;
+    background: rgb(0, 255, 115);
+    box-shadow: 0px 0px 0px 0px transparent;
+}
+.buttonld {
+    width: 60%;
+    height: 45px;
+    outline: none;
+    border: black 1px solid;
+    border-radius: 5px;
+    background: rgb(18, 51, 238);
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-style: 30px;
+    color: white;
+    font-family: sans-serif;
+    box-shadow: 5px 5px 2px 2px grey;
+}
+.buttonld:hover {
+    transition: 2s;
+    cursor: pointer;
+    background: rgb(5, 104, 233);
+    box-shadow: 0px 0px 0px 0px transparent;
+}
+.tit3 {
+    color: white;
+    font-family: 'josefin sans';
+    font-size: 15px;
+
+}
+.v-tit {
+    color: white;
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+    font-size: 20px;
+    width: 60%;
+    margin-left: 100px;
+}
+
+.load {
+    margin-top: 30px;
+    border: 8px solid white;
+    border-top: 8px solid cyan;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s infinite linear;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.err-p {
+    color: red;
+    font-family: 'Roboto';
+    text-align: center;
+    justify-content: center;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "yt-dow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "ytdl-core": "^4.11.0"
+  },
+  "keywords": ["yt-loader","youtube","videos","download","downloader","converter","stories","yt","youtube-dl","music"]
+}
